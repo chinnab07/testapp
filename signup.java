@@ -10,7 +10,8 @@ public class CallingMethodsInSameClass
 		printOne();
 		printOne();
 		printTwo();
-	}
+		printTHree();	
+}
 
 	public static void printOne() {
 		System.out.println("Hello World");
