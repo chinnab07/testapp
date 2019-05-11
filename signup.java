@@ -21,4 +21,9 @@ public class CallingMethodsInSameClass
 		printOne();
 		printOne();
 	}
+
 }
+public static void printTwo() {
+                printOne();
+                printOne();
+        }
